@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH's PortFolio</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <script>
+     $(document).ready(function(){
+      $('.slider').bxSlider({
+        mode: 'horizontal',
+        auto: true,
+        controls: false,
+        pager: false,
+        infiniteLoop: true
+      });
+    });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>나의 포트폴리오</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me <div class="a"></div></h2>
+        <div class="aa-img">
+            <div class="a_img">
+                <div class="a-img1"></div>
+                <div class="slider">
+                    <div class="a-img2"><img src="" alt=""><img src="./img/4.jpg" alt=""></div>
+                    <div class="a-img2"><img src="" alt=""><img src="./img/KakaoTalk_20240618_200808997.jpg" alt=""></div>
+                    <div class="a-img2"><img src="" alt=""><img src="./img/5.jpg" alt=""></div>
+                    <div class="a-img2"><img src="" alt=""><img src="./img/3.jpg" alt=""></div>
+                    <div class="a-img2"><img src="" alt=""><img src="./img/KakaoTalk_20240618_200808997_01.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="a_info">
+            <div class="a-show">
+                    <h3>HI HOW ARE YOU?</h3>
+                    <div>
+                        <h3 id="text"></h3>
+
+                    </div>
+            </div>
+                <div class="info">
+                    <div>Name: 박준현</div>
+                    <div>Phone: 010-9984-5296</div>
+                    <div>Age: 97.04.05 27</div>
+                    <div>Address: 대구 달서구 한실로 117</div>
+                    <div>Military Service: 해병대 만기 전역</div>
+                    <div><a class="git-a" href="https://github.com/pjpjhhy" target="_blank">My Git Hub</a></div>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills <div></div></h2>
+        <!-- 프로젝트 목록을 추가하세요 -->
+        <div class="main_skill">
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>HTML5의 시맨틱 태그를 사용하여 원하는 UI를 실용적이고 익숙하게 만들어 낼 수 있습니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>다양한 요소와 속성을 적절히 활용해 직관적이고 사용자 친화적인 인터페이스를 구현함으로써, 사용자가 쉽게 탐색하고 상호작용할 수 있는 웹 환경을 조성할 수 있습니다.</div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-css3-alt"></i>  CSS3</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>CSS 최신 문법이 숙지되어 있고 활용이 가능합니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>CSS 미디어쿼리를 활용하여 반응형 웹을 만들어 낼 수 있습니다. </div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-js-square"></i> JavaScript</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>ES6와 이후의 자바스크립트 문법을 사용할 수 있습니다</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>폭 넓은 플러그인의 사용이 가능합니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>Vanilla JS의 웹 제작이 가능하고 필요 이유에 대해 충분히 이해하고 있습니다.</div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-node-js" aria-hidden="true"></i> jQuery</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>다양한 속성과 메소드를 능숙하게 사용이 가능합니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>Ajax을 활용하여 비동기 통신으로 데이터 요청을 할 수 있습니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>jQuery UI 라이브러리를 활용할 수 있습니다.</div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-react"></i> React</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>컴포넌트 생명주기와 속성을 사용할 수 있습니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>class, function 컴포넌트의 차이를 이해하고 있으며 구분하여 사용할 수 있습니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>리덕스를 사용하여 상태관리를 할 수 있습니다.</div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-github"></i> github</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>git flow가 무엇인지 알고 있으며 왜 사용해야 하는지 이해하고 있습니다.</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>git과 github을 사용하여 다른 개발자들과 협업을 할 수 있습니다..</div>
+                </div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>git 리베이스를 할 수 있으며 스쿼시를 통한 커밋 관리 경험이 있습니다.</div>
+                </div>
+            </div>
+            <div class="skill" id="green-border">
+                <div class="f-skill"><i class="fab fa-figma"></i> Figma & photoshop & illustrator</div>
+                <div class="line">
+                    <div class="skill-line">-</div>
+                    <div>피그마, 포토샵 및 일러스트레이터 기능을 이해하며 활용이 가능하고 디자인 직무도 수행이 가능합니다.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects <div></div></h2>
+        <!-- 프로젝트 목록을 추가하세요 -->
+    <div class="project">
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/tmdb.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>tmdb 영화 사이트 클론코딩입니다. Open API를 활용하여 현재 인기있는 영화, TV 시리즈의 목록과 상세정보를 볼 수 있습니다.</div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">react</div>
+                    <div class="u-skill">tailwindcss</div>
+                </div>
+                <div>
+                    <a href="https://tmdb-react-drab.vercel.app/"  target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/marvel.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>Marvel 사이트 클론코딩입니다. Open API를 활용하여 현재 인기있는 만화, 캐릭터등을 볼 수 있습니다 .</div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">react</div>
+                    <div class="u-skill">tailwindcss</div>
+                </div>
+                <div>
+                    <a href="https://marvel-react-gilt.vercel.app/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/riot.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>riot game 사이트 클론코딩입니다. Open API를 활용하여 다양한 캐릭터와 정보등을 볼 수 있습니다 .</div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">react</div>
+                    <div class="u-skill">tailwindcss</div>
+                </div>
+                <div>
+                    <a href="https://riot-personalproject.vercel.app/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/seven.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>아이돌 세븐틴 사이트 클론코딩입니다. 반응형을 지원하지 않기에 새롭게 디자인하면서 반응형 웹으로 제작했습니다.</div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">HTML5</div>
+                    <div class="u-skill">CSS3</div>
+                    <div class="u-skill">JavaScript</div>
+                    <div class="u-skill">jQuery</div>
+                </div>
+                <div>
+                    <a href="https://marvel-react-gilt.vercel.app/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/PRO1.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>첫 번째 팀프로젝트로써 OpenApi를 활용하여 반응형 공연 웹 사이트를 제작하였습니다.소셜로그인이 연동되어있으며
+                        저는 퍼블리싱과 프론트엔드 직무를 맡았습니다.
+                    </div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">HTML5</div>
+                    <div class="u-skill">CSS3</div>
+                    <div class="u-skill">JavaScript</div>
+                    <div class="u-skill">php</div>
+                </div>
+                <div>
+                    <a href="https://xmfkdnak98.mycafe24.com/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/oneday.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>두 번째 팀프로젝트로써 알림톡 기능을 넣은 반응형 웹을 만들었습니다. 주제로는 원데이 클래스라는 것을
+                        선정하였고 저는 퍼블리싱과 프론트엔드 직무를 맡았습니다.
+                    </div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">react</div>
+                    <div class="u-skill">tailwindcss</div>
+                </div>
+                <div>
+                    <a href="https://one-day-git-master-jaesiks-projects.vercel.app/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="green-borders">
+            <div class="p-img">
+                <img src="./img/바따.png" alt="">
+            </div>
+            <div>
+                <!-- 간단설명 -->
+                <div class="p-info">
+                    <div class="skill-line">-</div>
+                    <div>세번째 팀 프로젝트로 GPS를 활용한 양조장 스탬프 투어 앱을 만들었습니다. 안드로이드 스튜디오로 제작이 되었고 경상도 양조장 앱을 만들었고 이 과정에서 저는 
+                        UI/UX 디자인 및 퍼블리싱 직무를 맡았습니다.
+                    </div>
+                </div>
+                <!-- 사용기술 -->
+                <div class="u-skills">
+                    <div class="u-skill">HTML5</div>
+                    <div class="u-skill">CSS3</div>
+                    <div class="u-skill">JavaScript</div>
+                    <div class="u-skill">ejs</div>
+                </div>
+                <div>
+                    <a href="https://port-0-project3-17xco2nlsjopaja.sel5.cloudtype.app/" target="_blank"><p class="site">사이트 구경하기</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <!-- 여기에 연락처 양식이나 소셜 미디어 링크를 추가하세요 -->
+        <p>Email: jun970405@naver.com</p>
+        <a class="e-a" href="mailto:superman@test.com?subject=안녕하세요.">메일보내기</a>
+    </section>
+
+    <footer>
+        <p>&copy;2024 나의 포트폴리오</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
