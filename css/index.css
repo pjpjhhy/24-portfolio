@@ -275,13 +275,16 @@ section h2 div{
   margin-bottom: 20px;
 }
 
+.c-p{
+  margin-top: 35px;
+}
+
 #contact p{
   width: fit-content;
-  margin:0 0 12px 5px;
-  border: 2px solid #3bb066;
+  margin:0 0 13px 5px;
   border-radius: 8px;
   padding: 5px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #contact p:hover{
