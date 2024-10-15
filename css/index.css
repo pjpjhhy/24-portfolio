@@ -356,6 +356,7 @@ section h2 div{
 
 .a_img{
   display: block;
+  margin-top: 23px;
   margin-left: 120px;
 }
 
@@ -366,7 +367,7 @@ section h2 div{
 
 .a-img1{
   position: absolute;
-  margin-top: 40px;
+  margin-top: 43px;
   width: 18%;
   height: 390px;
   margin-left: 10px;
